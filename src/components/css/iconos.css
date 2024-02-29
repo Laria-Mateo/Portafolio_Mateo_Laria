@@ -1,0 +1,13 @@
+.skills-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* ajusta el ancho mínimo y máximo de las columnas */
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-icons {
+      grid-template-columns: repeat(3, minmax(100px, 1fr)); /* ajusta el número de columnas en pantallas más grandes */
+    }
+  }
+  
