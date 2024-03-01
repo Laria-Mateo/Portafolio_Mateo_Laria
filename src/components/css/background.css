@@ -13,4 +13,7 @@
     z-index: -1;
     width: 100vw;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
 }
