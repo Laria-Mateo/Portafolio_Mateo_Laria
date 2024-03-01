@@ -5,14 +5,15 @@ import SkillsIcons from '@components/ui/SkillsIcons.astro';
 
 
 <section
-	data-testid="skills"
-	id="skills"
-	class="flex flex-col items-center  gap-8 text-black dark:text-white lg:mb-0 "
+	data-testid="habilidades"
+	id="habilidades"
+	class="mb-3 flex flex-col items-center justify-center md:mb-0 lg:mb-32"
 >
-<h2 class="mt-6">Skills</h2>
-	<hr class="w-full" />
+
+<h2 class="font-monospace text-2xl text-cyan-400 lg:text-4xl">Habilidades</h2>
+<span class="mb-10 h-1 w-10 bg-cyan-400"></span>
 	<div class="flex flex-box gap-8 flex-wrap justify-center lg:flex lg:flex-row lg:gap-20 lg:p-20 "> 
 		<SkillsIcons />
 	</div>
-	<hr class="w-full" />
+	<hr class="w-full hover:text-cyan-400 dark:hover:text-cyan-400 md:h-12" />
 </section>
