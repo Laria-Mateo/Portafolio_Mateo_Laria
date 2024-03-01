@@ -3,13 +3,16 @@ import Button from '@components/ui/Button.astro';
 import SkillsIcons from '@components/ui/SkillsIcons.astro';
 ---
 
+
 <section
 	data-testid="skills"
 	id="skills"
 	class="flex flex-col items-center  gap-8 text-black dark:text-white lg:mb-0 "
 >
-	<hr class="w-1/2" />
-	<div class="flex flex-col gap-8 lg:flex lg:flex-row lg:gap-20">
-	<SkillsIcons />
+<h2 class="mt-6">Skills</h2>
+	<hr class="w-full" />
+	<div class="flex flex-box gap-8 flex-wrap justify-center lg:flex lg:flex-nowrap lg:flex-row lg:gap-20 "> 
+		<SkillsIcons />
 	</div>
+	<hr class="w-full" />
 </section>
