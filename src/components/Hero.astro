@@ -20,15 +20,10 @@ import Button from '@components/ui/Button.astro';
 			 
 		</div>
 	</div>
-	<div data-testid="hero-img" class=" mb-10 flex w-1/2 items-center justify-center rounded-xl ">
-		<Image
+	<div data-testid="hero-img" class=" mb-10 flex w-1/2 items-center justify-center ">
+		<Image class={"rounded-xl"}
 		  src={imagen}
-		  aspectRatio="4:4"
-		  format="png"
-		  width={500}
-		  height={500}
-		  loading="eager"
-		  rounded={"xl"}
+		  
 		/>
 	  </div>
 </section>
