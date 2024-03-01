@@ -6,13 +6,11 @@
     position: absolute;
     content: '';
     background-image: url(/src/assets/images/fondo.png);
-    background-size: cover; /* Cambiado a cover para llenar el contenedor sin distorsionar */
+    background-size: 100% 100%; 
+    -webkit-background-size: 100% 100%; 
     background-position: center;
     height: 100%;
     z-index: -1;
     width: 100vw;
     background-attachment: fixed;
-    -webkit-background-size: cover; /* Para compatibilidad con Safari en iOS */
-    -moz-background-size: cover; /* Para compatibilidad con navegadores basados en Gecko */
-    -o-background-size: cover; /* Para compatibilidad con Opera */
 }
