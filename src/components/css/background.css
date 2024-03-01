@@ -1,6 +1,18 @@
 .about{
-    background-image: url('../../assets/images/fondo.png');
-    background-size: 100vw auto;
-    background-position: absolute;
     
+    
+    position: relative;
+    
+    
+}
+.about::before{
+    position: absolute;
+    content: '';
+    background-image: url(/src/assets/images/fondo.png);
+    background-size: cover;
+    background-position: center;
+    height:-webkit-fill-available;
+    z-index: -1;
+    width: 100vw;
+    background-attachment: fixed;
 }
